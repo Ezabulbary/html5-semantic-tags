@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        form{
+            margin: 10px 500px;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>Wellcame To My Form</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Jamaler Ma Spesial TSC Pitha Expo</legend>
+                <p>
+                    <label for="name">Name: <input type="name" placeholder="Enter your name"></label>
+                </p>
+                <p>
+                    <label for="email">Email: <input type="email" placeholder="Enter your email"></label>
+                </p>
+                <fieldset>
+                    <legend>Select Your Pitha</legend>
+                    <p>
+                        <label for="vapa"><input type="radio" name="pitha" id="vapa">vapa</label>
+                    </p>
+                    <p>
+                        <label for="chitoi"><input type="radio" name="pitha" id="chitoi">chitoi</label>
+                    </p>
+                    <p>
+                        <label for="tell"><input type="radio" name="pitha" id="tell">Tell er pitha</label>
+                    </p>
+                    <p>
+                        <label for="vaja"><input type="radio" name="pitha" id="vaja">Vaja pitha</label>
+                    </p>
+                    <p>
+                        <label for="pan"><input type="radio" name="pitha" id="pan">Pan pitha</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Select Your Vorta</legend>
+                    <p>
+                        <label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label>
+                    </p>
+                    <p>
+                        <label for="dhunia"><input type="checkbox" name="vorta" id="dhunia">dhunia</label>
+                    </p>
+                    <p>
+                        <label for="jhal"><input type="checkbox" name="vorta" id="jhal">jhal</label>
+                    </p>
+                    <p>
+                        <label for="sutki"><input type="checkbox" name="vorta" id="sutki">sutki</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <label for="">Spacial Instruction</label> <br>
+                    <textarea name="instruction" id="" cols="30" rows="10"
+                        placeholder="Type your Spacial instruction"></textarea>
+                </p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

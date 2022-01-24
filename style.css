@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    margin-left: 68px;
+    margin-right: 68px;
+}
+.container div p{
+    padding: 5px;
+    font-size: 60px;
+}
+.container div ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 15px;
+    border: 5px solid rebeccapurple;
+}
+.container div ul li a{
+    text-decoration: none;
+}
+.half-width{
+    width: 80%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #b1b1b1;
+}
+footer{
+    height: 100px;
+    background-color: #050505;
+}
